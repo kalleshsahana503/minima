@@ -1,0 +1,20 @@
+fastapi>=0.115
+uvicorn[standard]>=0.30
+websockets>=12
+python-dotenv>=1.0
+langchain-core>=1.0
+langchain-classic>=1.0
+langchain-community>=0.4
+langchain-groq>=1.0
+langchain-chroma>=1.0
+langchain-text-splitters>=1.0
+langgraph>=1.0
+chromadb>=1.0
+fastembed>=0.5
+ddgs>=9.0
+requests>=2.31
+beautifulsoup4>=4.12
+# chat/page storage helpers some LangChain integrations import:
+sqlalchemy>=2.0
+greenlet>=3.0
+langchain-anthropic>=1.0   # only used if NAVI_PROVIDER=anthropic

@@ -1,0 +1,8 @@
+.venv/
+chat_history.db
+*.db-wal
+*.db-shm
+__pycache__/
+backend/.env
+.env
+streamlit_log.txt
